@@ -1,0 +1,12 @@
+<h1>bonjour ma tunisie </h1>
+
+le nombre de ville : {{nv}}
+notre prof est :{{prof}}
+</br>
+
+<h2>Tableau des villes</h2>
+{% for t in ta %}
+
+{{t.id}}--{{t.libelle}}--{{t.emp}}--{{t.NBH}}
+</br>
+{% endfor %}

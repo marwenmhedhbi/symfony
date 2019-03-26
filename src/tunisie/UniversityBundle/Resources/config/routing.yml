@@ -1,0 +1,8 @@
+tunisie_university_homepage:
+    path:     /
+    defaults: { _controller: tunisieUniversityBundle:Default:index }
+
+tunisie_university_affichage:
+    path:     /affichage/{prof}
+    defaults: { _controller: tunisieUniversityBundle:Default:affichage }
+

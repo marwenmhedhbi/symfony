@@ -1,0 +1,8 @@
+ecole_etudiant_homepage:
+    path:     /index
+    defaults: { _controller: EcoleEtudiantBundle:Default:index }
+
+ecole_etudiant_info:
+   path:     /info
+   defaults: { _controller: EcoleEtudiantBundle:Default:info }
+

@@ -1,0 +1,11 @@
+tunisie_university:
+    resource: "@tunisieUniversityBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ecole_etudiant:
+    resource: "@EcoleEtudiantBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
